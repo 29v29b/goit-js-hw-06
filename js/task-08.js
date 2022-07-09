@@ -9,7 +9,8 @@ if (email.value === "" || password.value === "") {
     return alert("All fields must be filled!");
 }
 
-console.log(`Email: ${email.value}, Password: ${password.value}`);
+
+console.log({Email: email.value, Password: password.value});
 event.currentTarget.reset();
 }
 
